@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+body{
+    background-color: #222;
+    color: #fff;
+}
+h1{
+    font-size: 3rem;
+}
+
+/* Pyramid container */
+.pyramidContainer{
+    margin-top: 2rem;
+}
