@@ -35,7 +35,7 @@ form.addEventListener('submit', function(e){
 
     function creatingRows(counter){
         for(let i = 0; i < counter; i++){
-            rows.push(i+1);
+            rows.unshift(i+1);
         }
     }
     creatingRows(counter);
