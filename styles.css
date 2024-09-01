@@ -51,6 +51,9 @@ li{
     margin-top: 4em;
     margin-bottom: 8rem;
 }
+.inverted{
+    background-color: red;
+}
 .pyramid{
     display: flex;
     flex-direction: column;
